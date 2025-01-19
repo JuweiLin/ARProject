@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Controller</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Device Controller</h1>
+    <label for="device">Device Name:</label>
+    <input type="text" id="device" placeholder="Enter device name" />
+
+    <label for="command">Command:</label>
+    <select id="command">
+        <option value="SWITCH_ON">Turn ON</option>
+        <option value="SWITCH_OFF">Turn OFF</option>
+        <option value="MERRY_CHRISTMAS">Merry Christmas</option>
+    </select>
+
+    <button onclick="sendCommand()">Send Command</button>
+</body>
+</html>
